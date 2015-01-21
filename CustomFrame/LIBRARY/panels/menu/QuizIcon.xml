@@ -56,7 +56,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!0 0|90 90!90 90|180 0!180 180|90 90!90 90|0 180"/>
+                    <Edge strokeStyle="1" edges="!90 90|0 180!180 180|90 90!90 90|180 0!0 0|90 90"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -99,7 +99,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!180 200|90 110!90 110|0 200!0 20|90 110!90 110|180 20"/>
+                    <Edge strokeStyle="1" edges="!90 110|180 20!0 20|90 110!90 110|0 200!180 200|90 110"/>
                   </edges>
                 </DOMShape>
               </elements>

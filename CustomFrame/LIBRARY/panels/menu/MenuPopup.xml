@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="panels/tabs/QuestionListLabel" name="label" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="panels/tabs/QuestionListLabel" name="label" symbolType="button">
                   <matrix>
                     <Matrix tx="-5"/>
                   </matrix>

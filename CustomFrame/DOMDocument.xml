@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCFFFF" gridColor="#C0C0C0" guidesColor="#00FF00" width="980" height="658" frameRate="30" currentTimeline="1" xflVersion="2.4" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 13.1 build 226" majorVersion="13" minorVersion="1" buildNumber="226" gridSpacingX="18" gridSpacingY="18" snapAlignBorderSpacing="18" timelineHeight="136" timelineLabelWidth="236" viewAngle3D="70.6389271886709" vanishingPoint3DX="490" vanishingPoint3DY="329" nextSceneIdentifier="49" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCFFFF" gridColor="#C0C0C0" guidesColor="#00FF00" width="980" height="658" frameRate="30" currentTimeline="1" xflVersion="2.4" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 13.1 build 226" majorVersion="13" minorVersion="1" buildNumber="226" gridSpacingX="18" gridSpacingY="18" snapAlignBorderSpacing="18" timelineHeight="136" timelineLabelWidth="236" viewAngle3D="70.6389271886709" vanishingPoint3DX="490" vanishingPoint3DY="329" nextSceneIdentifier="49" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <folders>
           <DOMFolderItem name="assets" itemID="5252f5a2-000002b0"/>
           <DOMFolderItem name="assets/icons" itemID="52530037-000002e4"/>
@@ -23,8 +23,8 @@
           <DOMFolderItem name="windows/prompt" itemID="5252fffe-000002dd"/>
      </folders>
      <fonts>
-          <DOMFontItem name="assets/Articulate Bold" itemID="52546002-000003f5" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="ArticulateBold" font="Articulate-Bold" size="0" id="5" sourceLastImported="1381277258" embedRanges="5"/>
           <DOMFontItem name="assets/Articulate" itemID="52545f64-000003f1" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="Articulate" font="Articulate" size="0" id="4" sourceLastImported="1383090911" embedRanges="5"/>
+          <DOMFontItem name="assets/Articulate Bold" itemID="52546002-000003f5" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="ArticulateBold" font="Articulate-Bold" size="0" id="5" sourceLastImported="1381277258" embedRanges="5"/>
      </fonts>
      <symbols>
           <Include href="assets/BackgroundFill.xml" itemIcon="1" loadImmediate="false" itemID="527bfb41-00000316" lastModified="1411172418"/>
@@ -674,6 +674,7 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="121211" publishTime="1421846898"/>
           <PublishItem publishSize="86870" publishTime="1414771216"/>
           <PublishItem publishSize="107624" publishTime="1411435474" publishDebug="true"/>
           <PublishItem publishSize="107611" publishTime="1411435120" publishDebug="true"/>
@@ -693,6 +694,5 @@
           <PublishItem publishSize="107309" publishTime="1411176003" publishDebug="true"/>
           <PublishItem publishSize="107311" publishTime="1411176000" publishDebug="true"/>
           <PublishItem publishSize="107270" publishTime="1411175966" publishDebug="true"/>
-          <PublishItem publishSize="107274" publishTime="1411175404" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

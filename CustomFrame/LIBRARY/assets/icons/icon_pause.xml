@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_pause" itemID="497354bc-00000890" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_pause" sourceLastModified="1256785881" lastModified="1353047367" sourceItemID="00000000-7fffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_pause" itemID="497354bc-00000890" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_pause" sourceLastModified="1256785881" lastModified="1353047367" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="icon_pause">
       <layers>
@@ -16,7 +16,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!439.5 879.5S2|439.5 1159.5!439.5 1159.5|359.5 1159.5!359.5 1159.5|359.5 879.5!359.5 879.5|439.5 879.5!279.5 879.5|279.5 1159.5!279.5 1159.5|199.5 1159.5!199.5 1159.5|199.5 879.5!199.5 879.5|279.5 879.5"/>
+                    <Edge fillStyle1="1" edges="!279.5 879.5S2|279.5 1159.5!279.5 1159.5|199.5 1159.5!199.5 1159.5|199.5 879.5!199.5 879.5|279.5 879.5!439.5 879.5|439.5 1159.5!439.5 1159.5|359.5 1159.5!359.5 1159.5|359.5 879.5!359.5 879.5|439.5 879.5"/>
                   </edges>
                 </DOMShape>
               </elements>

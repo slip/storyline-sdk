@@ -126,7 +126,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="panels/notes/Notes" name="notes" selected="true" centerPoint3DX="114.5" centerPoint3DY="333">
+                <DOMSymbolInstance libraryItemName="panels/notes/Notes" name="notes" centerPoint3DX="114.5" centerPoint3DY="333">
                   <transformationPoint>
                     <Point x="114.5" y="333"/>
                   </transformationPoint>
