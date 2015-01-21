@@ -7,9 +7,9 @@ package customframe
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
 	import flash.text.TextField;
-	
+
 	import com.articulate.wg.v3_0.*;
-	
+
 	import customframe.base.CustomSprite;
 	import customframe.components.buttons.ControlButtons;
 	import customframe.components.buttons.VolumeButton;
@@ -29,6 +29,7 @@ package customframe
 	import customframe.managers.OptionList;
 	import customframe.managers.OptionListItem;
 
+	import com.junkbyte.console.Cc;
 	/**
 	 * This is the logic for the Frame symbol in the library (/Frame.)
 	 *
@@ -39,13 +40,13 @@ package customframe
 	{
 		public static const DEFAULT_WIDTH:int = 980;
 		public static const DEFAULT_HEIGHT:int = 658;
-		
+
 		public static const CONTROL_OUTLINE:String = "outline";
 		public static const CONTROL_RESOURCES:String = "resources";
 		public static const CONTROL_GLOSSARY:String = "glossary";
 		public static const CONTROL_TRANSCRIPT:String = "transcript";
 		public static const CONTROL_QUESTIONLIST:String = "question_list";
-		
+
 		public static const CUSTOM_EVT_FIRST_SLIDE_TRIGGERED:String = "first_slide_triggered";
 		public static const CUSTOM_EVT_LAST_SLIDE_TRIGGERED:String = "last_slide_triggered";
 
@@ -57,7 +58,7 @@ package customframe
 		public static const SUBMIT:String = "submit";
 		public static const SUBMITALL:String = "submitall";
 		public static const FINISH:String = "finish";
-		
+
 		public static const NEXT:String = "next";
 		public static const PREVIOUS:String = "previous";
 		public static const SEEKBAR:String = "seekbar";
@@ -68,14 +69,14 @@ package customframe
 		public static const STORY_POPUP_CONTROLS:String = "StoryPopupControls";
 		public static const WIDTH:String = "width";
 		public static const HEIGHT:String = "height"
-		
+
 		public static const ELAPSEDTIME_MODE_NORMAL:String = "normal";
 		public static const ELAPSEDTIME_MODE_PAUSED:String = "pause";
 		public static const ELAPSEDTIME_MODE_IGNORE:String = "ignore";
-		
+
 		public static const PRESENTER_NONE:String = "none";
 		public static const PRESENTER_DEFAULT:String = "default";
-		
+
 		public static const OUTPUT_TYPE_QM:String = "qm";
 
 		private const MARGIN_LEFT:int = 10;
@@ -130,8 +131,11 @@ package customframe
 			addEventListener(Event.ADDED_TO_STAGE, HandleAddToStage);
 			this.sidebar.CustomFrame = this;
 			m_oKeyboadShortcuts = new KeyboardShortcuts(this);
+			//junkbyte console
+			Cc.config.commandLineAllowed = true;
+			Cc.start(this, "dbf");
 		}
-			
+
 		public function AddTimer(oTimer:wgITimer):void
 		{
 			this.timer.AddTimer(oTimer);
@@ -162,12 +166,12 @@ package customframe
 		{
 			return true;
 		}
-		
+
 		public function get Timeline():wgITimeline
 		{
 			return m_oTimeline;
 		}
-		
+
 		public function GetSlide(strSlideId:String):wgISlide
 		{
 			var evtFrame:wgEventFrame = new wgEventFrame(wgEventFrame.GET_SLIDE);
@@ -228,26 +232,26 @@ package customframe
 		public function SetTitle(strTitle:String):void
 		{
 			this.titleField.text = strTitle;
-			
+
 			if (elapsedTimeField.visible){
 				this.elapsedTimeField.x = this.titleField.x + this.titleField.textWidth + 10;
 			}
 		}
-		
+
 		private function HandleAddToStage(e:Event)
 		{
 			m_oKeyboadShortcuts.SetStage(this.stage);
 		}
-		
-		private function UpdateElapsedTime(e:Event = null):void 
+
+		private function UpdateElapsedTime(e:Event = null):void
 		{
 			var strCurrentTime:String;
-			
+
 			if (m_oTimeline.StartTime == -1)
 			{
 				strCurrentTime = "00:00";
 			}
-			else if (m_oTimeline.ElapsedTimeMode == ELAPSEDTIME_MODE_PAUSED) 
+			else if (m_oTimeline.ElapsedTimeMode == ELAPSEDTIME_MODE_PAUSED)
 			{
 				strCurrentTime = Utils.GetTimeString(m_oTimeline.StartTime);
 			}
@@ -255,17 +259,17 @@ package customframe
 			{
 				strCurrentTime =  Utils.GetTimeString(m_oTimeline.StartTime + m_oTimeline.PlayHeadTime);
 			}
-			
+
 			var strElapsedTime:String = "(" + strCurrentTime + " / " + Utils.GetTimeString(m_oPlayer.LessonDuration) + ")";
-			
+
 			if (elapsedTimeField.text != strElapsedTime && elapsedTimeField.visible)
 			{
 				elapsedTimeField.text = strElapsedTime;
 			}
 		}
-		
+
 		private function UpdateTimelineStatus(e:Event):void
-		{	
+		{
 			if (m_oTimeline.TimelinePlaying && m_oTimeline.ElapsedTimeMode != ELAPSEDTIME_MODE_IGNORE)
 			{
 				addEventListener(Event.ENTER_FRAME, UpdateElapsedTime);
@@ -279,7 +283,7 @@ package customframe
 				}
 			}
 		}
-		
+
 		public function SetDataFilename(strFilename:String, strRemotePath:String):void
 		{
 			m_strFilename = strFilename;
@@ -339,11 +343,11 @@ package customframe
 		{
 			// Bottom bar
 			var bShowBottomBar:Boolean = m_oOptionManager.GetOptionAsBool(OptionManager.OPTGROUP_BOTTOMBAR, OptionManager.OPTION_BOTTOMBAR_ENABLED, true);
-				
+
 			// Volume button - m_spVolume
 			this.volumeButton.visible = (m_oControlManager.IsControlEnabled(VOLUME) && bShowBottomBar);
 			this.volumeButton.y = this.height - (this.volumeButton.backgroundUp.height + MARGIN_BUTTON_BOTTOM);
-			
+
 			// Control buttons
 			this.controlButtons.ShowSubmit = (m_oControlManager.IsControlEnabled(SUBMIT) && bShowBottomBar);
 			this.controlButtons.ShowSubmitAll = (m_oControlManager.IsControlEnabled(SUBMITALL) && bShowBottomBar);
@@ -352,11 +356,11 @@ package customframe
 			this.controlButtons.ShowPrevious = (m_oControlManager.IsControlEnabled(PREVIOUS) && bShowBottomBar);
 			this.controlButtons.x = this.width - MARGIN_RIGHT - this.controlButtons.width;
 			this.controlButtons.y = this.height - (this.controlButtons.height + MARGIN_BUTTON_BOTTOM);
-			
+
 			// Sidebar
 			var bShowLogo:Boolean = m_oOptionManager.GetOptionAsBool(OptionManager.OPTGROUP_SIDEBAR, OptionManager.OPTION_LOGO_ENABLED) && m_oOptionManager.GetOptionAsBool(OptionManager.OPTGROUP_SIDEBAR, OptionManager.OPTION_SIDEBAR_ENABLED);
 			var bShowElapsedTime:Boolean = m_oOptionManager.GetOptionAsBool(OptionManager.OPTGROUP_CONTROLS, OptionManager.OPTION_CONTROLS_ELAPSEDANDTOTALTIME);
-			
+
 			if (bShowLogo)
 			{
 				this.logo.visible = true;
@@ -373,7 +377,7 @@ package customframe
 				this.logo.visible = false;
 				this.sidebar.y = 8;
 			}
-			
+
 			if (m_bShowInfo)
 			{
 				this.infopanel.visible = true;
@@ -385,12 +389,12 @@ package customframe
 			{
 				this.infopanel.visible = false;
 			}
-			
+
 			this.sidebar.height = this.height - this.sidebar.y - 12;
-			
+
 			if (bShowElapsedTime) {
 				this.elapsedTimeField.visible = true;
-				
+
 				if (m_oTimeline.ElapsedTimeMode != ELAPSEDTIME_MODE_IGNORE)
 				{
 					UpdateElapsedTime();
@@ -411,9 +415,9 @@ package customframe
 			var bShowMenu:Boolean = (m_oControlManager.IsControlEnabled(OUTLINE) && m_oOptionManager.GetOptionAsBool(OptionManager.OPTGROUP_SIDEBAR, OptionManager.OPTION_SIDEBAR_ENABLED));
 			var bShowMenuPopup:Boolean = (m_oControlManager.IsControlEnabled(OUTLINE) && (oOutlineOptions.Group == OptionManager.LISTGROUP_LINKLEFT || oOutlineOptions.Group == OptionManager.LISTGROUP_LINKRIGHT));
 			var bShowSidebar:Boolean = m_oOptionManager.GetOptionAsBool(OptionManager.OPTGROUP_SIDEBAR, OptionManager.OPTION_SIDEBAR_ENABLED) && (bShowNotes || bShowGlossary || bShowLogo || (bShowMenu && oOutlineOptions.Group == OptionManager.LISTGROUP_SIDEBAR));
-			
+
 			var leftPosition:int;
-			
+
 			if (bShowSidebar)
 			{
 				this.sidebar.visible = true;
@@ -434,19 +438,19 @@ package customframe
 				this.titleField.x = MARGIN_LEFT;
 				leftPosition = MARGIN_LEFT;
 			}
-			
+
 			if (this.controlButtons.submitAllButton.visible)
 			{
 				this.controlButtons.submitAllButton.x = leftPosition - this.controlButtons.x;
 				leftPosition = leftPosition + this.controlButtons.submitAllButton.width + MARGIN_LEFT;
 			}
-			
+
 			if (this.volumeButton.visible)
 			{
 				this.volumeButton.x = leftPosition;
 				leftPosition = this.volumeButton.x + this.volumeButton.width + MARGIN_LEFT;
 			}
-			
+
 			// Seekbar
 			this.seekbar.x = leftPosition;
 			this.seekbar.width = this.controlButtons.x - this.seekbar.x;
@@ -454,7 +458,7 @@ package customframe
 			this.seekbar.ReplayButtonEnabled = (m_oControlManager.IsControlEnabled(REPLAY) && bShowBottomBar);
 			this.seekbar.PlayPauseButtonEnabled = (m_oControlManager.IsControlEnabled(PAUSE_PLAY) && bShowBottomBar);
 			this.seekbar.y = this.height - (this.seekbar.height + MARGIN_BUTTON_BOTTOM);
-			
+
 			if (bShowResources)
 			{
 				this.resourcesPopup.x = this.width - MARGIN_RIGHT - this.resourcesPopup.width
@@ -464,7 +468,7 @@ package customframe
 			{
 				this.resourcesPopup.visible = false;
 			}
-			
+
 			if (bShowMenuPopup)
 			{
 				this.menuPopup.visible = true;
@@ -484,16 +488,16 @@ package customframe
 			{
 				this.menuPopup.visible = false;
 			}
-			
+
 			var nTitleBottom:Number = 0;
 			var nVisibleBottom:Number = (bShowBottomBar) ? this.seekbar.y : this.height;
-			
+
 			if (m_oOptionManager.GetOptionAsBool(OptionManager.OPTGROUP_SIDEBAR, OptionManager.OPTION_TITLE_ENABLED))
 			{
 				nTitleBottom = this.titleField.y + this.titleField.textHeight;
-				
+
 				var strProjectTitle:String = m_oOptionManager.GetOptionAsString(OptionManager.OPTGROUP_SIDEBAR, OptionManager.OPTION_TITLE_TEXT);
-				
+
 				if (strProjectTitle != null)
 				{
 					SetTitle(strProjectTitle);
@@ -503,14 +507,14 @@ package customframe
 			{
 				this.titleField.visible = false;
 			}
-			
+
 			this.slideContainer.y = nTitleBottom + (nVisibleBottom - nTitleBottom - this.slideContainer.height) * 0.5;
 		}
-		
+
 		public function GotoFirstSlide():void
 		{
 			var oSlide:wgISlide = GetCurrentSlide();
-			
+
 			if (oSlide != null && !oSlide.SlideLock)
 			{
 				var evtFrame:wgEventFrame = new wgEventFrame(wgEventFrame.TRIGGER_CUSTOM_EVENT);
@@ -519,19 +523,19 @@ package customframe
 				dispatchEvent(evtFrame);
 			}
 		}
-		
+
 		public function GotoLastSlide():void
 		{
 			var oSlide:wgISlide = GetCurrentSlide();
-			
+
 			if (oSlide != null && !oSlide.SlideLock)
 			{
 				var evtFrame:wgEventFrame = new wgEventFrame(wgEventFrame.TRIGGER_CUSTOM_EVENT);
 				evtFrame.Id = CUSTOM_EVT_LAST_SLIDE_TRIGGERED;
-				
+
 				dispatchEvent(evtFrame);
 			}
-				
+
 		}
 
 		public function TriggerCustomEvent(strId:String):void
@@ -560,19 +564,19 @@ package customframe
 			this.resourcesPopup.Data = m_xmlData.resource_data[0];
 			UpdateGlossary(m_xmlData.glossary_data[0]);
 			UpdateTOC(m_xmlData.nav_data[0].outline[0]);
-			
+
 			m_bShowInfo = m_oOptionManager.GetOptionAsBool(OptionManager.OPTGROUP_SIDEBAR, OptionManager.OPTION_INFO_ENABLED) && m_oOptionManager.GetOptionAsBool(OptionManager.OPTGROUP_SIDEBAR, OptionManager.OPTION_SIDEBAR_ENABLED);
-				
+
 			m_strDefaultPresenterId = m_oOptionManager.GetOptionAsString(OptionManager.OPTGROUP_SIDEBAR, OptionManager.OPTION_DEFAULT_PRESENTER_ID);
-			
+
 			if (m_bShowInfo)
 			{
 				infopanel.SetPresenter(m_strDefaultPresenterId);
 			}
-			
+
 			var evtReady:wgEventFrame = new wgEventFrame(wgEventFrame.FRAME_READY);
 			dispatchEvent(evtReady);
-			
+
 			m_oKeyboadShortcuts.Enabled = (m_oOptionManager.GetOptionAsBool(OptionManager.OPTGROUP_CONTROLS, OptionManager.OPTION_CONTROLS_ENABLEKEYBOARDSHORTCUTS));
 		}
 
@@ -586,7 +590,7 @@ package customframe
 		{
 			return this.background.width;
 		}
-		
+
 		override public function set width(value:Number):void
 		{
 			if (value != this.background.width)
@@ -600,7 +604,7 @@ package customframe
 		{
 			return this.background.height;
 		}
-		
+
 		override public function set height(value:Number):void
 		{
 			if (value != this.background.height)
@@ -654,14 +658,14 @@ package customframe
 			evtFrame.Volume = evt.Volume;
 			dispatchEvent(evtFrame);
 		}
-		
+
 		public function SetWindowTimeline(oTimeline:wgITimeline):void
 		{
 			m_oTimeline = oTimeline;
 			this.seekbar.Timeline = oTimeline;
 		}
 
-		
+
 		public function ShowPresenter(bShowVideo:Boolean, nWidth:int = 0, nHeight:int = 0, bShowInfo:Boolean = true, strPresenterId:String = ""):DisplayObjectContainer
 		{
 			var xmlPresenters:XML = m_xmlData.presenters[0];
@@ -671,12 +675,12 @@ package customframe
 				{
 					m_bShowSidebar = true;
 				}
-				
+
 				if (logo.visible)
 				{
 					logo.DisplayFlatSide = true;
 				}
-				
+
 				if (bShowVideo)
 				{
 					m_spInfoVideo = infopanel.ShowVideo(nWidth, nHeight);
@@ -685,7 +689,7 @@ package customframe
 				{
 					infopanel.RemoveVideo();
 				}
-				
+
 				if (bShowInfo && strPresenterId != PRESENTER_NONE)
 				{
 					if (strPresenterId == "" || strPresenterId == PRESENTER_DEFAULT)
@@ -701,7 +705,7 @@ package customframe
 				{
 					infopanel.SetPresenter("");
 				}
-				
+
 				if (!infopanel.visible)
 				{
 					m_bShowInfo = true;
@@ -718,12 +722,12 @@ package customframe
 					logo.DisplayFlatSide = false;
 				}
 			}
-			
+
 			UpdateControls();
-			
+
 			return m_spInfoVideo;
 		}
-		
+
 		public function ShowBio():void
 		{
 			if (infopanel.visible)
@@ -731,11 +735,11 @@ package customframe
 				infopanel.ToggleMoreInfo();
 			}
 		}
-		
+
 		public function ToggleMute():void
 		{
 			var evtFrame:wgEventFrame = new wgEventFrame(wgEventFrame.VOLUME_CHANGED);
-			
+
 			if (m_bMuted)
 			{
 				evtFrame.Volume = m_nVolume;
@@ -745,9 +749,9 @@ package customframe
 				m_nVolume = volumeButton.Volume;
 				evtFrame.Volume = 0;
 			}
-			
+
 			m_bMuted = !m_bMuted;
-			
+
 			dispatchEvent(evtFrame);
 		}
 
@@ -772,17 +776,17 @@ package customframe
 					break;
 			}
 		}
-		
+
 		public function PlayPauseSlide():void
 		{
 			this.seekbar.TogglePlayPause();
 		}
-		
+
 		public function SetLockCursor(bShow:Boolean):void
 		{
 			m_oPlayer.ShowLockCursor(bShow);
 		}
-		
+
 		public function GetCurrentSlide():wgISlide
 		{
 			var evtFrame:wgEventFrame = new wgEventFrame(wgEventFrame.GET_CURRENT_SLIDE);
@@ -791,27 +795,27 @@ package customframe
 
 			return evtFrame.ReturnData as wgISlide;
 		}
-		
+
 		public function SetControlLayout(strControlLayout:String):void
 		{
 			m_oControlManager.SetControlLayout(strControlLayout);
 		}
-		
+
 		public function EnableFrameControl(strControlName:String, bEnable:Boolean):void
 		{
 			m_oControlManager.EnableFrameControl(strControlName, bEnable);
 		}
-		
+
 		public function EnableWindowControl(strControlName:String, bEnable:Boolean):void
 		{
 			m_oControlManager.EnableFrameControl(strControlName, bEnable);
 		}
-		
+
 		public function SetControlVisible(strControlName:String, bVisible:Boolean):void
 		{
 			m_oControlManager.SetControlVisible(strControlName, bVisible);
 		}
-		
+
 		public function SetFlashVars(oFlashVars:Object):void
 		{
 		}
