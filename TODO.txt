@@ -1,0 +1,11 @@
+In course output:
+
+Find all references to width & height of wrapper & change to 1000x800
+
+In as3 source:
+
+Change width & height to 1000x800
+
+In Flash:
+Add logo
+Add help panel
