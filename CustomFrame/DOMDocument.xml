@@ -1,7 +1,7 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCFFFF" gridColor="#C0C0C0" guidesColor="#00FF00" width="1000" height="750" frameRate="30" currentTimeline="1" xflVersion="2.4" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 13.1 build 226" majorVersion="13" minorVersion="1" buildNumber="226" gridSpacingX="18" gridSpacingY="18" snapAlignBorderSpacing="18" timelineHeight="136" timelineLabelWidth="236" viewAngle3D="71.7345951671492" vanishingPoint3DX="490" vanishingPoint3DY="329" nextSceneIdentifier="49" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <folders>
-          <DOMFolderItem name="assets" itemID="5252f5a2-000002b0"/>
-          <DOMFolderItem name="assets/icons" itemID="52530037-000002e4"/>
+          <DOMFolderItem name="assets" itemID="5252f5a2-000002b0" isExpanded="true"/>
+          <DOMFolderItem name="assets/icons" itemID="52530037-000002e4" isExpanded="true"/>
           <DOMFolderItem name="components" itemID="5252f5e4-000002b8" isExpanded="true"/>
           <DOMFolderItem name="components/buttons" itemID="5253056c-00000305"/>
           <DOMFolderItem name="components/list" itemID="52530087-000002ea"/>
@@ -39,7 +39,7 @@
           <Include href="assets/icons/icon_close.xml" loadImmediate="false" itemID="52787951-00000248" lastModified="1383627555"/>
           <Include href="assets/icons/icon_filter.xml" loadImmediate="false" itemID="497aa65f-00000256" lastModified="1383282108"/>
           <Include href="assets/icons/icon_next.xml" loadImmediate="false" itemID="49735926-00000896" lastModified="1353047367"/>
-          <Include href="assets/icons/icon_pause.xml" loadImmediate="false" itemID="497354bc-00000890" lastModified="1353047367"/>
+          <Include href="assets/icons/icon_pause.xml" loadImmediate="false" itemID="497354bc-00000890" lastModified="1422031888"/>
           <Include href="assets/icons/icon_play.xml" loadImmediate="false" itemID="4989b8ef-00001e26" lastModified="1353047367"/>
           <Include href="assets/icons/icon_prev.xml" loadImmediate="false" itemID="49735855-00000894" lastModified="1353047367"/>
           <Include href="assets/icons/icon_replay.xml" loadImmediate="false" itemID="49735521-00000892" lastModified="1353047367"/>
@@ -157,13 +157,13 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Title" color="#FF4F4F" locked="true" autoNamed="false">
+                    <DOMLayer name="Title" color="#FF4F4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
                                         <DOMDynamicText name="titleField" width="461.95" height="16.2" isSelectable="false">
                                              <matrix>
-                                                  <Matrix a="1.02040100097656" d="1.02040100097656" tx="300.2" ty="674.1"/>
+                                                  <Matrix a="1.02040100097656" d="1.02040100097656" tx="273.2" ty="672.1"/>
                                              </matrix>
                                              <textRuns>
                                                   <DOMTextRun>
@@ -176,7 +176,7 @@
                                         </DOMDynamicText>
                                         <DOMDynamicText name="elapsedTimeField" width="73" height="12.75" isSelectable="false">
                                              <matrix>
-                                                  <Matrix a="1.02040100097656" d="1.02040100097656" tx="343" ty="676.15"/>
+                                                  <Matrix a="1.02040100097656" d="1.02040100097656" tx="316" ty="674.15"/>
                                              </matrix>
                                              <textRuns>
                                                   <DOMTextRun>
@@ -345,7 +345,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMGroup selected="true">
+                                        <DOMGroup>
                                              <members>
                                                   <DOMGroup selected="true">
                                                        <members>
@@ -430,7 +430,7 @@
                                                   <Edge cubics="!682 505(;626,505 579,551 579,607q682 505Q640 505q610 535Q579 565q579 607);"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMSymbolInstance libraryItemName="components/buttons/WindowCloseButton" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="components/buttons/WindowCloseButton" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="910.9" ty="5.35"/>
                                              </matrix>
@@ -1377,6 +1377,15 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="132459" publishTime="1422032357"/>
+          <PublishItem publishSize="132422" publishTime="1422031967"/>
+          <PublishItem publishSize="132404" publishTime="1422031950"/>
+          <PublishItem publishSize="132442" publishTime="1422031941"/>
+          <PublishItem publishSize="132399" publishTime="1422031893"/>
+          <PublishItem publishSize="132427" publishTime="1422031865"/>
+          <PublishItem publishSize="132452" publishTime="1422031835"/>
+          <PublishItem publishSize="132377" publishTime="1422031504"/>
+          <PublishItem publishSize="132329" publishTime="1422030859"/>
           <PublishItem publishSize="132354" publishTime="1422030771"/>
           <PublishItem publishSize="131159" publishTime="1422030184"/>
           <PublishItem publishSize="131141" publishTime="1422030073"/>
@@ -1388,14 +1397,5 @@
           <PublishItem publishSize="127952" publishTime="1422029540"/>
           <PublishItem publishSize="127944" publishTime="1422029354"/>
           <PublishItem publishSize="127931" publishTime="1422029280"/>
-          <PublishItem publishSize="127930" publishTime="1422029207"/>
-          <PublishItem publishSize="123257" publishTime="1422029073"/>
-          <PublishItem publishSize="123247" publishTime="1422029028"/>
-          <PublishItem publishSize="123283" publishTime="1422028971"/>
-          <PublishItem publishSize="121430" publishTime="1422028599"/>
-          <PublishItem publishSize="121479" publishTime="1422028458"/>
-          <PublishItem publishSize="121445" publishTime="1422028201"/>
-          <PublishItem publishSize="121442" publishTime="1422028079"/>
-          <PublishItem publishSize="121453" publishTime="1422027997"/>
      </publishHistory>
 </DOMDocument>

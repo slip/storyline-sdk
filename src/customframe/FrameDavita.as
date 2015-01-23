@@ -20,7 +20,8 @@ package customframe
 		override public function UpdateControls():void
 		{
 			this.background.width = 1000;
-			this.background.height = 750;
+			this.background.height = 700;
+			this.background.y = 50;
 
 			this.slideContainer.x = 0;
 			this.slideContainer.y = 69;
