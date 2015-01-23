@@ -10,31 +10,34 @@ package customframe
 	public class FrameDavita extends Frame
 	{
 		public static const DEFAULT_WIDTH:int = 1000;
-		public static const DEFAULT_HEIGHT:int = 800;
+		public static const DEFAULT_HEIGHT:int = 750;
 
 		private const MARGIN_LEFT:int = 0;
 		private const MARGIN_RIGHT:int = 0;
 		private const MARGIN_LOGO_TOP:int = 0;
-		private const MARGIN_BUTTON_BOTTOM:int = 15;
+		private const MARGIN_BUTTON_BOTTOM:int = 0;
 
 		override public function UpdateControls():void
 		{
 			this.background.width = 1000;
-			this.background.height = 800;
+			this.background.height = 750;
 
 			this.slideContainer.x = 0;
-			this.slideContainer.y = 116;
-			/*this.slideContainer.width = 1000;*/
-			/*this.slideContainer.height = 600;*/
+			this.slideContainer.y = 69;
+			this.slideContainer.width = 1000;
+			this.slideContainer.height = 600;
+
+
 			this.logo.visible = false;
 			this.sidebar.visible = false;
+
 			// Bottom bar
 			var bShowBottomBar:Boolean = true;
 
 			// Volume button - m_spVolume
 			this.volumeButton.visible = true;
 			this.volumeButton.x = 220;
-			this.volumeButton.y = 745;
+			this.volumeButton.y = 690;
 
 			// Control buttons
 			this.controlButtons.ShowSubmit = (m_oControlManager.IsControlEnabled(SUBMIT) && bShowBottomBar);
@@ -43,7 +46,7 @@ package customframe
 			this.controlButtons.ShowNext = (m_oControlManager.IsControlEnabled(NEXT) && bShowBottomBar);
 			this.controlButtons.ShowPrevious = (m_oControlManager.IsControlEnabled(PREVIOUS) && bShowBottomBar);
 			this.controlButtons.x = this.width - 15 - this.controlButtons.width;
-			this.controlButtons.y = 745;
+			this.controlButtons.y = 690;
 
 			// Sidebar
 			var bShowLogo:Boolean = false;
@@ -58,7 +61,7 @@ package customframe
 
 			// Seekbar
 			this.seekbar.x = 270;
-			this.seekbar.y = 745;
+			this.seekbar.y = 690;
 			this.seekbar.width = this.controlButtons.x - this.seekbar.x;
 			this.seekbar.visible = (m_oControlManager.IsControlEnabled(SEEKBAR) && bShowBottomBar);
 			this.seekbar.ReplayButtonEnabled = (m_oControlManager.IsControlEnabled(REPLAY) && bShowBottomBar);

@@ -1,14 +1,14 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/Background" itemID="524321e8-0000041f" linkageExportForAS="true" linkageClassName="customframe.windows.Background" lastModified="1381870633" lastUniqueIdentifier="1" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/Background" itemID="524321e8-0000041f" linkageExportForAS="true" linkageClassName="customframe.windows.Background" lastModified="1422029820" lastUniqueIdentifier="1" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Background">
       <layers>
-        <DOMLayer name="Rounded Half Rectangle" color="#9933CC" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+        <DOMLayer name="Rounded Half Rectangle" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="assets/Gradient Half Rounded Rectangle" name="sidebarBackground" centerPoint3DX="120" centerPoint3DY="329">
+                <DOMSymbolInstance libraryItemName="assets/Gradient Half Rounded Rectangle" name="sidebarBackground" centerPoint3DX="120" centerPoint3DY="375">
                   <matrix>
-                    <Matrix a="1.004150390625"/>
+                    <Matrix a="1.004150390625" d="1.13981628417969"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="119.5" y="329"/>
@@ -22,7 +22,10 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="assets/Gradient Rounded Rectangle" centerPoint3DX="489.6" centerPoint3DY="327.2">
+                <DOMSymbolInstance libraryItemName="assets/Gradient Rounded Rectangle" selected="true" centerPoint3DX="499.6" centerPoint3DY="372.95">
+                  <matrix>
+                    <Matrix a="1.02040100097656" d="1.13981628417969"/>
+                  </matrix>
                   <transformationPoint>
                     <Point x="489.6" y="327.2"/>
                   </transformationPoint>

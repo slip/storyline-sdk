@@ -42,8 +42,8 @@
     <AlternateFilename>CustomFrame_alternate.html</AlternateFilename>
     <UsingOwnAlternateFile>0</UsingOwnAlternateFile>
     <OwnAlternateFilename></OwnAlternateFilename>
-    <Width>980</Width>
-    <Height>658</Height>
+    <Width>1000</Width>
+    <Height>750</Height>
     <Align>0</Align>
     <Units>0</Units>
     <Loop>1</Loop>
@@ -115,8 +115,8 @@
     <TelemetryPassword></TelemetryPassword>
   </PublishFlashProperties>
   <PublishJpegProperties enabled="true">
-    <Width>980</Width>
-    <Height>658</Height>
+    <Width>1000</Width>
+    <Height>750</Height>
     <Progressive>0</Progressive>
     <DPI>4718592</DPI>
     <Size>0</Size>
@@ -141,8 +141,8 @@
     <exportSMIL>1</exportSMIL>
   </PublishRNWKProperties>
   <PublishGifProperties enabled="true">
-    <Width>980</Width>
-    <Height>658</Height>
+    <Width>1000</Width>
+    <Height>750</Height>
     <Animated>0</Animated>
     <MatchMovieDim>1</MatchMovieDim>
     <Loop>1</Loop>
@@ -200,8 +200,8 @@
     <AlternateFilename>CustomFrame_alternate.html</AlternateFilename>
     <UsingOwnAlternateFile>0</UsingOwnAlternateFile>
     <OwnAlternateFilename></OwnAlternateFilename>
-    <Width>980</Width>
-    <Height>658</Height>
+    <Width>1000</Width>
+    <Height>750</Height>
     <Align>0</Align>
     <Units>0</Units>
     <Loop>1</Loop>
@@ -235,7 +235,7 @@
     <ActionScriptVersion>3</ActionScriptVersion>
     <PackageExportFrame>1</PackageExportFrame>
     <PackagePaths></PackagePaths>
-    <AS3PackagePaths>./src</AS3PackagePaths>
+    <AS3PackagePaths>/Users/slip/Google Drive/davita/storyline-sdk/src/</AS3PackagePaths>
     <AS3ConfigConst>CONFIG::FLASH_AUTHORING=&quot;true&quot;;</AS3ConfigConst>
     <DebuggingPermitted>0</DebuggingPermitted>
     <DebuggingPassword></DebuggingPassword>
@@ -246,7 +246,7 @@
     <StreamUse8kSampleRate>0</StreamUse8kSampleRate>
     <EventUse8kSampleRate>0</EventUse8kSampleRate>
     <UseNetwork>0</UseNetwork>
-    <DocumentClass>customframe.Frame</DocumentClass>
+    <DocumentClass>customframe.FrameDavita</DocumentClass>
     <AS3Strict>2</AS3Strict>
     <AS3Coach>0</AS3Coach>
     <AS3AutoDeclare>0</AS3AutoDeclare>
@@ -273,8 +273,8 @@
     <TelemetryPassword></TelemetryPassword>
   </PublishFlashProperties>
   <PublishJpegProperties enabled="true">
-    <Width>980</Width>
-    <Height>658</Height>
+    <Width>1000</Width>
+    <Height>750</Height>
     <Progressive>0</Progressive>
     <DPI>4718592</DPI>
     <Size>0</Size>
@@ -299,8 +299,8 @@
     <exportSMIL>1</exportSMIL>
   </PublishRNWKProperties>
   <PublishGifProperties enabled="true">
-    <Width>980</Width>
-    <Height>658</Height>
+    <Width>1000</Width>
+    <Height>750</Height>
     <Animated>0</Animated>
     <MatchMovieDim>1</MatchMovieDim>
     <Loop>1</Loop>

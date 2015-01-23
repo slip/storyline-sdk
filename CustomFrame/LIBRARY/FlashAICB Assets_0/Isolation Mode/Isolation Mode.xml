@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_0/Isolation Mode/Isolation Mode" itemID="53f35d1d-0000055a" lastModified="1408458067">
+  <timeline>
+    <DOMTimeline name="Isolation Mode">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!127 699[293 650 400 527!400 527[448 472 550 293!550 293[633 149 714 88!714 88[833 0 1031 0!1031 0|1512 0!1512 0[1619 0 1696 75!1696 75[1772 151 1771 257!1771 257|1771 949!1771 949|0 949!0 949|0 699!0 699|127 699"/>
+                    <Edge cubics="!127 699(;634,549 446,0 1031,0q127 699Q293 650q400 527Q448 472q550 293Q633 149q714 88Q833 0q1031 0);"/>
+                    <Edge cubics="!1031 0(;1031,0 1512,0 1512,0q1031 0 1512 0);"/>
+                    <Edge cubics="!1512 0(;1655,0 1772,115 1771,257q1512 0Q1619 0q1696 75Q1772 151q1771 257);"/>
+                    <Edge cubics="!1771 257(;1771,257 1771,949 1771,949q1771 257 1771 949);"/>
+                    <Edge cubics="!1771 949(;1771,949 0,949 0,949q1771 949 0 949);"/>
+                    <Edge cubics="!0 949(;0,949 0,699 0,699q0 949 0 699);"/>
+                    <Edge cubics="!0 699(;0,699 127,699 127,699q0 699 127 699);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="1" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

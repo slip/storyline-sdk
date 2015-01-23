@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/Gradient Half Rounded Rectangle" itemID="50beb1bc-000003e4" scaleGridLeft="21" scaleGridRight="232" scaleGridTop="22" scaleGridBottom="638.95" lastModified="1380065128">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/Gradient Half Rounded Rectangle" itemID="50beb1bc-000003e4" scaleGridLeft="21" scaleGridRight="232" scaleGridTop="22" scaleGridBottom="638.95" lastModified="1422029725">
   <timeline>
     <DOMTimeline name="Gradient Half Rounded Rectangle">
       <layers>
@@ -9,13 +9,7 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <LinearGradient>
-                        <matrix>
-                          <Matrix a="0" b="-0.401611328125" c="0.401611328125" d="0" tx="119.5" ty="329"/>
-                        </matrix>
-                        <GradientEntry color="#C2C2C2" ratio="0"/>
-                        <GradientEntry color="#DBDBDB" ratio="1"/>
-                      </LinearGradient>
+                      <SolidColor color="#FFFFFF"/>
                     </FillStyle>
                   </fills>
                   <edges>

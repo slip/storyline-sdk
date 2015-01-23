@@ -1,0 +1,94 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SL Template Redesign V1.ai/Tabs and Deck/&amp;#060Clip Group&amp;#062_2" itemID="52a880ce-0000019d" lastModified="1408458557">
+  <timeline>
+    <DOMTimeline name="&amp;#060Clip Group&amp;#062_2">
+      <layers>
+        <DOMLayer name="Isolation Mode" color="#0000FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets_0/Isolation Mode/Isolation Mode">
+                  <transformationPoint>
+                    <Point x="44.25" y="23.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!102 561[235 522 321 423!321 423[360 378 441 236!441 236[508 120 573 72!573 72[668 1 826 1!826 1|1212 1!1212 1[1298 1 1359 61!1359 61[1420 122 1420 207!1420 207|1420 761!1420 761|0 761!0 761|0 561!0 561|102 561"/>
+                    <Edge cubics="!102 561(;509,441 358,1 826,1q102 561Q235 522q321 423Q360 378q441 236Q508 120q573 72Q668 1q826 1);"/>
+                    <Edge cubics="!826 1(;826,1 1212,1 1212,1q826 1 1212 1);"/>
+                    <Edge cubics="!1212 1(;1326,1 1420,93 1420,207q1212 1Q1298 1q1359 61Q1420 122q1420 207);"/>
+                    <Edge cubics="!1420 207(;1420,207 1420,761 1420,761q1420 207 1420 761);"/>
+                    <Edge cubics="!1420 761(;1420,761 0,761 0,761q1420 761 0 761);"/>
+                    <Edge cubics="!0 761(;0,761 0,561 0,561q0 761 0 561);"/>
+                    <Edge cubics="!0 561(;0,561 102,561 102,561q0 561 102 561);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="2">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SL Template Redesign V1.ai/Tabs and Deck/Blend_1" blendMode="multiply">
+                  <matrix>
+                    <Matrix tx="21.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.9" y="20"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F1F1F2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!14 641[104 609 135 590!135 590[#C7.A1 #226.83 254 489!254 489[296 441 401 275!401 275[486 140 560 83!560 83[668 0 826 0!826 0|1212 0!1212 0[1298 0 1359 60!1359 60[1420 121 1420 206!1420 206/1420 641!1420 641/135 641!135 641/14 641"/>
+                    <Edge cubics="!135 590(;420,414 408,0 826,0q135 590Q200 551q254 489Q296 441q401 275Q486 140q560 83Q668 0q826 0);"/>
+                    <Edge cubics="!826 0(;826,0 1212,0 1212,0q826 0 1212 0);"/>
+                    <Edge cubics="!1212 0(;1326,0 1420,92 1420,206q1212 0Q1298 0q1359 60Q1420 121q1420 206);"/>
+                    <Edge cubics="!1420 206(;1420,206 1420,641 1420,641q1420 206p1420 641);"/>
+                    <Edge cubics="!1420 641(;1420,641 135,641 135,641q1420 641 135 641);"/>
+                    <Edge cubics="!135 641(;135,641 14,641 14,641q135 641 14 641);"/>
+                    <Edge cubics="!14 641(;14,641 104,609 135,590q14 641Q104 609q135 590);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
