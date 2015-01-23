@@ -1,9 +1,9 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCFFFF" gridColor="#C0C0C0" guidesColor="#00FF00" width="1000" height="750" frameRate="30" currentTimeline="1" xflVersion="2.4" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 13.1 build 226" majorVersion="13" minorVersion="1" buildNumber="226" gridSpacingX="18" gridSpacingY="18" snapAlignBorderSpacing="18" timelineHeight="136" timelineLabelWidth="236" viewAngle3D="71.7345951671492" vanishingPoint3DX="490" vanishingPoint3DY="329" nextSceneIdentifier="49" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <folders>
-          <DOMFolderItem name="assets" itemID="5252f5a2-000002b0" isExpanded="true"/>
-          <DOMFolderItem name="assets/icons" itemID="52530037-000002e4" isExpanded="true"/>
+          <DOMFolderItem name="assets" itemID="5252f5a2-000002b0"/>
+          <DOMFolderItem name="assets/icons" itemID="52530037-000002e4"/>
           <DOMFolderItem name="components" itemID="5252f5e4-000002b8" isExpanded="true"/>
-          <DOMFolderItem name="components/buttons" itemID="5253056c-00000305"/>
+          <DOMFolderItem name="components/buttons" itemID="5253056c-00000305" isExpanded="true"/>
           <DOMFolderItem name="components/list" itemID="52530087-000002ea"/>
           <DOMFolderItem name="components/scrollbar" itemID="52530091-000002ec"/>
           <DOMFolderItem name="components/seekbar" itemID="52530097-000002ed"/>
@@ -13,6 +13,7 @@
           <DOMFolderItem name="FlashAICB Assets_0/Isolation Mode" itemID="53f35d1d-00000558"/>
           <DOMFolderItem name="panels" itemID="5252f61b-000002c3" isExpanded="true"/>
           <DOMFolderItem name="panels/glossary" itemID="525306bb-0000030a"/>
+          <DOMFolderItem name="panels/help" itemID="54c28d62-000002ce" isExpanded="true"/>
           <DOMFolderItem name="panels/info" itemID="541cc921-00000ef1" isExpanded="true"/>
           <DOMFolderItem name="panels/logo" itemID="5253008c-000002eb"/>
           <DOMFolderItem name="panels/menu" itemID="5253000e-000002df"/>
@@ -30,6 +31,10 @@
           <DOMFontItem name="assets/Articulate" itemID="52545f64-000003f1" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="Articulate" font="Articulate" size="0" id="4" sourceLastImported="1383090911" embedRanges="5"/>
           <DOMFontItem name="assets/Articulate Bold" itemID="52546002-000003f5" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="ArticulateBold" font="Articulate-Bold" size="0" id="5" sourceLastImported="1381277258" embedRanges="5"/>
      </fonts>
+     <media>
+          <DOMBitmapItem name="HelpMenuContent.png" itemID="540f5056-000000a0" sourceExternalFilepath="../../../8-8-2014/CustomFrame/LIBRARY/HelpMenuContent.png" sourceLastImported="1410289508" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="HelpMenuContent.png" bitmapDataHRef="M 1 1422036322.dat" frameRight="10880" frameBottom="9200"/>
+          <DOMBitmapItem name="ResourceLogos.png" itemID="540f5056-000000a1" sourceExternalFilepath="../../../8-8-2014/CustomFrame/LIBRARY/ResourceLogos.png" sourceLastImported="1410284783" sourcePlatform="macintosh" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ResourceLogos.png" bitmapDataHRef="M 2 1422036322.dat" frameRight="3500" frameBottom="3620"/>
+     </media>
      <symbols>
           <Include href="assets/BackgroundFill.xml" itemIcon="1" loadImmediate="false" itemID="527bfb41-00000316" lastModified="1411172418"/>
           <Include href="assets/CustomLine.xml" itemID="52432266-00000426" lastModified="1380131440"/>
@@ -65,6 +70,7 @@
           <Include href="components/buttons/ControlButtons.xml" itemID="5243220b-00000423" lastModified="1386407576"/>
           <Include href="components/buttons/Finish Button.xml" itemIcon="0" loadImmediate="false" itemID="528d6cea-00000282" lastModified="1385003257"/>
           <Include href="components/buttons/Next Button.xml" itemIcon="0" loadImmediate="false" itemID="509c572a-000002e9" lastModified="1385003259"/>
+          <Include href="components/buttons/PanelOpenButton.xml" itemID="52af5ac5-00000349" lastModified="1422036912"/>
           <Include href="components/buttons/Prev Button.xml" itemIcon="0" loadImmediate="false" itemID="509c56ce-000002cb" lastModified="1385003260"/>
           <Include href="components/buttons/Submit All Button.xml" itemIcon="0" loadImmediate="false" itemID="528d790e-000002a3" lastModified="1386407529"/>
           <Include href="components/buttons/Submit Button.xml" itemIcon="0" loadImmediate="false" itemID="514a4f9c-000075b4" lastModified="1385003280"/>
@@ -93,7 +99,10 @@
           <Include href="components/timer/MinuteSlice.xml" loadImmediate="false" itemID="525300fe-000002f3" lastModified="1381171454"/>
           <Include href="components/timer/Timer.xml" itemID="524322df-00000434" lastModified="1381942174"/>
           <Include href="FlashAICB Assets_0/Isolation Mode/Isolation Mode.xml" loadImmediate="false" itemID="53f35d1d-0000055a" lastModified="1408458067"/>
+          <Include href="HelpBackBG.xml" loadImmediate="false" itemID="540f4f9d-0000009d" lastModified="1410289565"/>
+          <Include href="HelpBackPanel.xml" loadImmediate="false" itemID="540f4f7b-00000099" lastModified="1410289531"/>
           <Include href="panels/glossary/Glossary.xml" itemID="525302dc-000002fc" lastModified="1381942192"/>
+          <Include href="panels/help/HelpPanel.xml" itemID="52af2d52-00000298" lastModified="1422037256"/>
           <Include href="panels/info/Backgroud.xml" loadImmediate="false" itemID="541cc8ef-00000eef" lastModified="1411172591"/>
           <Include href="panels/info/BioButton.xml" itemIcon="0" loadImmediate="false" itemID="541cc8df-00000eee" lastModified="1411172575"/>
           <Include href="panels/info/Block.xml" loadImmediate="false" itemID="5272d5bb-00000343" lastModified="1411169769"/>
@@ -131,6 +140,7 @@
           <Include href="panels/tabs/Tab.xml" loadImmediate="false" itemID="50bfa0cd-000004a7" lastModified="1385062393"/>
           <Include href="SL Template Redesign V1.ai/Tabs and Deck/&amp;#060Clip Group&amp;#062_2.xml" loadImmediate="false" itemID="52a880ce-0000019d" lastModified="1408458557"/>
           <Include href="SL Template Redesign V1.ai/Tabs and Deck/Blend_1.xml" loadImmediate="false" itemID="52a880ce-0000019f" lastModified="1386774734"/>
+          <Include href="TestOpenButton.xml" itemID="5416f649-000000ee" lastModified="1422037044"/>
           <Include href="windows/Background.xml" itemID="524321e8-0000041f" lastModified="1422029820"/>
           <Include href="windows/lightbox/LightboxWindow.xml" itemID="5252febf-000002db" lastModified="1381181478"/>
           <Include href="windows/prompt/PromptWindow.xml" itemID="5243228b-00000429" lastModified="1383253258"/>
@@ -271,6 +281,22 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
+                    <DOMLayer name="Help" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="panels/help/HelpPanel" name="helpPanel" selected="true">
+                                             <matrix>
+                                                  <Matrix ty="-5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="500.45" y="34.35"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="Slide Container" color="#FF800A" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
@@ -341,7 +367,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Top Nav" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Top Nav" color="#4F80FF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -430,7 +456,7 @@
                                                   <Edge cubics="!682 505(;626,505 579,551 579,607q682 505Q640 505q610 535Q579 565q579 607);"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMSymbolInstance libraryItemName="components/buttons/WindowCloseButton" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="components/buttons/WindowCloseButton" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="910.9" ty="5.35"/>
                                              </matrix>
@@ -1377,25 +1403,25 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="166173" publishTime="1422037238"/>
+          <PublishItem publishSize="166120" publishTime="1422037094"/>
+          <PublishItem publishSize="60996" publishTime="1422037076"/>
+          <PublishItem publishSize="60996" publishTime="1422037048"/>
+          <PublishItem publishSize="60996" publishTime="1422036981"/>
+          <PublishItem publishSize="60996" publishTime="1422036915"/>
+          <PublishItem publishSize="166063" publishTime="1422036844"/>
+          <PublishItem publishSize="166149" publishTime="1422036785"/>
+          <PublishItem publishSize="166132" publishTime="1422036677"/>
+          <PublishItem publishSize="165927" publishTime="1422036626"/>
+          <PublishItem publishSize="165963" publishTime="1422036566"/>
+          <PublishItem publishSize="60996" publishTime="1422036472"/>
+          <PublishItem publishSize="165941" publishTime="1422036411"/>
+          <PublishItem publishSize="132423" publishTime="1422032546"/>
           <PublishItem publishSize="132459" publishTime="1422032357"/>
           <PublishItem publishSize="132422" publishTime="1422031967"/>
           <PublishItem publishSize="132404" publishTime="1422031950"/>
           <PublishItem publishSize="132442" publishTime="1422031941"/>
           <PublishItem publishSize="132399" publishTime="1422031893"/>
           <PublishItem publishSize="132427" publishTime="1422031865"/>
-          <PublishItem publishSize="132452" publishTime="1422031835"/>
-          <PublishItem publishSize="132377" publishTime="1422031504"/>
-          <PublishItem publishSize="132329" publishTime="1422030859"/>
-          <PublishItem publishSize="132354" publishTime="1422030771"/>
-          <PublishItem publishSize="131159" publishTime="1422030184"/>
-          <PublishItem publishSize="131141" publishTime="1422030073"/>
-          <PublishItem publishSize="127914" publishTime="1422030022"/>
-          <PublishItem publishSize="127895" publishTime="1422029754"/>
-          <PublishItem publishSize="127926" publishTime="1422029661"/>
-          <PublishItem publishSize="127939" publishTime="1422029616"/>
-          <PublishItem publishSize="127934" publishTime="1422029593"/>
-          <PublishItem publishSize="127952" publishTime="1422029540"/>
-          <PublishItem publishSize="127944" publishTime="1422029354"/>
-          <PublishItem publishSize="127931" publishTime="1422029280"/>
      </publishHistory>
 </DOMDocument>

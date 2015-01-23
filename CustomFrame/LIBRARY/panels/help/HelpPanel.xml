@@ -1,0 +1,280 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/help/HelpPanel" itemID="52af2d52-00000298" linkageExportForAS="true" linkageClassName="com.davita.panels.help.HelpPanel" lastModified="1422037256" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="HelpPanel" currentFrame="1">
+      <layers>
+        <DOMLayer name="inv button test" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="TestOpenButton">
+                  <matrix>
+                    <Matrix a="1.14501953125" tx="-1" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.5" y="24.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="HelpMenuContent.png">
+                  <matrix>
+                    <Matrix tx="367.75" ty="114.85"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#009999">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="ResourceLogos.png">
+                  <matrix>
+                    <Matrix tx="64.8" ty="305.4"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Text" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMStaticText width="272.25" height="77.4" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="44" ty="97.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>This information is provided to help you navigate this course. If you need help with Course Specific content. Please refer to the various resources available to you below.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="5" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText width="278.25" height="50.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="44" ty="201.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>For more specific course related help. Don’t forget about the other resources available to you throughout the village.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="White Panel" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="HelpBackPanel">
+                  <matrix>
+                    <Matrix tx="340.5" ty="99.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="299.25" y="245.55"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="7" blurY="7" color="#000000" strength="0.35"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Back Panel" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="HelpBackBG">
+                  <matrix>
+                    <Matrix tx="24.6" ty="66.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="475.4" y="278.3"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="10" blurY="10" color="#000000" quality="2" strength="0.35"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="panel" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix d="1.04141235351562" ty="-1.9"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F1F1F2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 925S2|20000 925!20000 925/20000 13000!20000 13000/0 13000!0 13000/0 925"/>
+                    <Edge cubics="!20000 925(;20000,925 20000,13000 20000,13000q20000 925 20000 13000);"/>
+                    <Edge cubics="!0 13000(;0,13000 0,925 0,925q0 13000p0 925);"/>
+                    <Edge cubics="!20000 13000(;20000,13000 0,13000 0,13000q20000 13000p0 13000);"/>
+                    <Edge cubics="!0 925(;0,925 20000,925 20000,925q0 925 20000 925);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Shadow Mask" color="#9933CC" autoNamed="false" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#666666"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!17101 2S2/19996 2!19996 2/19996 1000!19996 1000/17101 1000!17101 1000/17101 2"/>
+                    <Edge cubics="!19996 2(;19996,2 19996,1000 19996,1000q19996 2 19996 1000);"/>
+                    <Edge cubics="!17101 1000(;17101,1000 17101,2 17101,2q17101 1000p17101 2);"/>
+                    <Edge cubics="!17101 2(;17101,2 19996,2 19996,2q17101 2p19996 2);"/>
+                    <Edge cubics="!19996 1000(;19996,1000 17101,1000 17101,1000q19996 1000p17101 1000);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tab" color="#9933CC" parentLayerIndex="7" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/PanelOpenButton" selected="true">
+                  <transformationPoint>
+                    <Point x="52.65" y="24.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="SL Template Redesign V1.ai/Tabs and Deck/&amp;#060Clip Group&amp;#062_2">
+                  <matrix>
+                    <Matrix a="1.25074768066406" d="1.25074768066406" tx="911" ty="10"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="42.1" y="20"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="160.000004553459" blurX="12" blurY="12" distance="13" strength="0.14"/>
+                  </filters>
+                </DOMSymbolInstance>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="1.25074768066406" d="1.25074768066406" tx="-12.75" ty="-6.8"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.0076904296875" d="-0.0076904296875" tx="782.75" ty="29.9"/>
+                        </matrix>
+                        <GradientEntry color="#C21A30" ratio="0"/>
+                        <GradientEntry color="#F2142B" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!15710 628[15714 632 15710 636!15710 636|15693 653!15693 653[15689 659 15685 653!15685 653|15655 624!15655 624|15625 653!15625 653[15621 659 15617 653!15617 653|15600 636!15600 636[15594 632 15600 628!15600 628|15629 598!15629 598|15600
+ 569!15600 569[15595 564 15600 560!15600 560|15617 543!15617 543[15621 539 15625 543!15625 543|15655 573!15655 573|15685 543!15685 543[15689 539 15693 543!15693 543|15710 560!15710 560[15714 564 15710 569!15710 569|15680 598!15680 598
+|15710 628!15655 472[15603 472 15566 509!15566 509[15529 546 15529 598!15529 598[15529 651 15566 687!15566 687[15603 724 15655 724!15655 724[15707 724 15744 687!15744 687[15781 650 15781 598!15781 598[15781 546 15744 509!15744 509[15707
+ 472 15655 472"/>
+                    <Edge cubics="!15710 628(;15712,630 15712,634 15710,636q15710 628Q15714 632q15710 636);"/>
+                    <Edge cubics="!15710 636(;15710,636 15693,653 15693,653p15710 636q15693 653);"/>
+                    <Edge cubics="!15693 653(;15691,656 15687,656 15685,653q15693 653Q15689 659q15685 653);"/>
+                    <Edge cubics="!15685 653(;15685,653 15655,624 15655,624p15685 653q15655 624);"/>
+                    <Edge cubics="!15655 624(;15655,624 15625,653 15625,653p15655 624q15625 653);"/>
+                    <Edge cubics="!15625 653(;15623,656 15619,656 15617,653q15625 653Q15621 659q15617 653);"/>
+                    <Edge cubics="!15617 653(;15617,653 15600,636 15600,636p15617 653q15600 636);"/>
+                    <Edge cubics="!15600 636(;15597,634 15597,630 15600,628q15600 636Q15594 632q15600 628);"/>
+                    <Edge cubics="!15600 628(;15600,628 15629,598 15629,598p15600 628q15629 598);"/>
+                    <Edge cubics="!15629 598(;15629,598 15600,569 15600,569p15629 598q15600 569);"/>
+                    <Edge cubics="!15600 569(;15597,566 15597,562 15600,560q15600 569Q15595 564q15600 560);"/>
+                    <Edge cubics="!15600 560(;15600,560 15617,543 15617,543p15600 560q15617 543);"/>
+                    <Edge cubics="!15617 543(;15619,541 15623,541 15625,543q15617 543Q15621 539q15625 543);"/>
+                    <Edge cubics="!15625 543(;15625,543 15655,573 15655,573p15625 543q15655 573);"/>
+                    <Edge cubics="!15655 573(;15655,573 15685,543 15685,543p15655 573q15685 543);"/>
+                    <Edge cubics="!15685 543(;15687,541 15691,541 15693,543q15685 543Q15689 539q15693 543);"/>
+                    <Edge cubics="!15693 543(;15693,543 15710,560 15710,560p15693 543q15710 560);"/>
+                    <Edge cubics="!15710 560(;15712,562 15712,566 15710,569q15710 560Q15714 564q15710 569);"/>
+                    <Edge cubics="!15710 569(;15710,569 15680,598 15680,598p15710 569q15680 598);"/>
+                    <Edge cubics="!15680 598(;15680,598 15710,628 15710,628p15680 598q15710 628);"/>
+                    <Edge cubics="!15655 472(;15585,472 15529,529 15529,598q15655 472Q15603 472q15566 509Q15529 546q15529 598);"/>
+                    <Edge cubics="!15529 598(;15529,668 15585,724 15655,724q15529 598Q15529 651q15566 687Q15603 724q15655 724);"/>
+                    <Edge cubics="!15655 724(;15724,724 15781,668 15781,598q15655 724Q15707 724q15744 687Q15781 650q15781 598);"/>
+                    <Edge cubics="!15781 598(;15781,529 15724,472 15655,472q15781 598Q15781 546q15744 509Q15707 472q15655 472);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="components/buttons/WindowCloseButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="911" ty="9.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/PanelOpenButton" centerPoint3DX="904.35" centerPoint3DY="27.4">
+                  <transformationPoint>
+                    <Point x="52.65" y="24.95"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="15" blurX="4" blurY="4" strength="0.2"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

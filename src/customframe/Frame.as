@@ -29,7 +29,6 @@ package customframe
 	import customframe.managers.OptionList;
 	import customframe.managers.OptionListItem;
 
-	import com.junkbyte.console.Cc;
 	/**
 	 * This is the logic for the Frame symbol in the library (/Frame.)
 	 *
@@ -131,9 +130,6 @@ package customframe
 			addEventListener(Event.ADDED_TO_STAGE, HandleAddToStage);
 			this.sidebar.CustomFrame = this;
 			m_oKeyboadShortcuts = new KeyboardShortcuts(this);
-			//junkbyte console
-			Cc.config.commandLineAllowed = true;
-			Cc.start(this, "dbf");
 		}
 
 		public function AddTimer(oTimer:wgITimer):void

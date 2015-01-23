@@ -1,6 +1,9 @@
 package customframe
 {
-	import customframe.Frame
+	import customframe.Frame;
+	import com.davita.components.buttons.WindowCloseButton;
+	import com.davita.panels.help.HelpPanel;
+	import com.junkbyte.console.Cc;
 	/**
 	 * This is the logic for the Frame symbol in the library (/Frame.)
 	 *
@@ -16,6 +19,15 @@ package customframe
 		private const MARGIN_RIGHT:int = 0;
 		private const MARGIN_LOGO_TOP:int = 0;
 		private const MARGIN_BUTTON_BOTTOM:int = 0;
+
+		public var helpPanel:HelpPanel;
+
+		public function FrameDavita()
+		{
+			//junkbyte console
+			Cc.config.commandLineAllowed = true;
+			Cc.start(this, "dbf");
+		}
 
 		override public function UpdateControls():void
 		{
