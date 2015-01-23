@@ -38,8 +38,8 @@ package customframe
 	 */
 	public class Frame extends CustomSprite implements wgIFrame
 	{
-		public static const DEFAULT_WIDTH:int = 1000;
-		public static const DEFAULT_HEIGHT:int = 800;
+		public static const DEFAULT_WIDTH:int = 980;
+		public static const DEFAULT_HEIGHT:int = 658;
 
 		public static const CONTROL_OUTLINE:String = "outline";
 		public static const CONTROL_RESOURCES:String = "resources";
