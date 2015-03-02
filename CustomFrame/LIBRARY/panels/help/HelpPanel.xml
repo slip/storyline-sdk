@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/help/HelpPanel" itemID="52af2d52-00000298" linkageExportForAS="true" linkageClassName="com.davita.panels.help.HelpPanel" lastModified="1422037256" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/help/HelpPanel" itemID="52af2d52-00000298" linkageExportForAS="true" linkageClassName="com.davita.panels.help.HelpPanel" lastModified="1422968257" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="HelpPanel" currentFrame="1">
       <layers>
@@ -17,6 +17,37 @@
                     <Point x="65.5" y="24.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="3.75784301757813" d="0.551528930664063" tx="-1392" ty="279.4"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="3.75784301757813" d="0.551528930664063" tx="-1392" ty="279.4"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#F1F1F1"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!9279 8580S2|12339 8580!12339 8580|12339 10899!12339 10899|9279 10899!9279 10899|9279 8580"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
               </elements>
             </DOMFrame>
           </frames>
@@ -60,13 +91,23 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F1F1F1"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!7299 10539|15339 10539!15339 10539|15339 11719!15339 11719|7299 11719!7299 11719|7299 10539"/>
+                  </edges>
+                </DOMShape>
                 <DOMStaticText width="272.25" height="77.4" isSelectable="false">
                   <matrix>
-                    <Matrix tx="44" ty="97.6"/>
+                    <Matrix tx="46" ty="109.6"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>This information is provided to help you navigate this course. If you need help with Course Specific content. Please refer to the various resources available to you below.</characters>
+                      <characters>This information is provided to help you navigate this course. If you need help with Course Specific content, please refer to the various resources available to you below.</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" lineSpacing="5" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
                       </textAttrs>
@@ -75,7 +116,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="278.25" height="50.8" isSelectable="false">
                   <matrix>
-                    <Matrix tx="44" ty="201.1"/>
+                    <Matrix tx="46" ty="213.1"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -134,27 +175,24 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="panel" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="panel" color="#4F80FF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isFloating="true">
-                  <matrix>
-                    <Matrix d="1.04141235351562" ty="-1.9"/>
-                  </matrix>
+                <DOMShape>
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#F1F1F2"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!0 925S2|20000 925!20000 925/20000 13000!20000 13000/0 13000!0 13000/0 925"/>
-                    <Edge cubics="!20000 925(;20000,925 20000,13000 20000,13000q20000 925 20000 13000);"/>
-                    <Edge cubics="!0 13000(;0,13000 0,925 0,925q0 13000p0 925);"/>
-                    <Edge cubics="!20000 13000(;20000,13000 0,13000 0,13000q20000 13000p0 13000);"/>
+                    <Edge fillStyle1="1" edges="!0 925|20000 925!20000 925/20000 13500!20000 13500/0 13500!0 13500/0 925"/>
+                    <Edge cubics="!20000 925(;20000,925 20000,13500 20000,13500q20000 925 20000 13500);"/>
+                    <Edge cubics="!0 13500(;0,13500 0,925 0,925q0 13500p0 925);"/>
+                    <Edge cubics="!20000 13500(;20000,13500 0,13500 0,13500q20000 13500p0 13500);"/>
                     <Edge cubics="!0 925(;0,925 20000,925 20000,925q0 925 20000 925);"/>
                   </edges>
                 </DOMShape>
@@ -184,7 +222,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="tab" color="#9933CC" parentLayerIndex="7" autoNamed="false">
+        <DOMLayer name="tab" color="#9933CC" parentLayerIndex="8" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

@@ -7,7 +7,8 @@ package customframe
 	/**
 	 * This is the logic for the Frame symbol in the library (/Frame.)
 	 *
-	 * The Frame contains all the visual elements that make up the custom frame. It implements the wgIFrame interface
+	 * The Frame contains all the visual elements that make up the custom frame.
+	 * It implements the wgIFrame interface
 	 * and thus can be used as a frame for the Articulate player.
 	 */
 	public class FrameDavita extends Frame
@@ -49,7 +50,7 @@ package customframe
 
 			// Volume button - m_spVolume
 			this.volumeButton.visible = true;
-			this.volumeButton.x = 220;
+			this.volumeButton.x = 230;
 			this.volumeButton.y = 690;
 
 			// Control buttons
@@ -75,11 +76,22 @@ package customframe
 			// Seekbar
 			this.seekbar.x = 270;
 			this.seekbar.y = 690;
-			this.seekbar.width = this.controlButtons.x - this.seekbar.x;
+			this.seekbar.width = this.controlButtons.x - this.seekbar.x - 10;
 			this.seekbar.visible = (m_oControlManager.IsControlEnabled(SEEKBAR) && bShowBottomBar);
 			this.seekbar.ReplayButtonEnabled = (m_oControlManager.IsControlEnabled(REPLAY) && bShowBottomBar);
 			this.seekbar.PlayPauseButtonEnabled = (m_oControlManager.IsControlEnabled(PAUSE_PLAY) && bShowBottomBar);
 
+			//Resources
+			var bShowResources:Boolean = m_oControlManager.IsControlEnabled(RESOURCES);
+			if (bShowResources)
+			{
+				this.resourcesPopup.x = 0;
+				this.resourcesPopup.visible = true;
+			}
+			else
+			{
+				this.resourcesPopup.visible = false;
+			}
 		}
 /*
 		override public function UpdateControls():void

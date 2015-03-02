@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/ButtonBackground Over" itemID="50a572e7-00001637" scaleGridLeft="7.65" scaleGridRight="61.9" scaleGridTop="6.6" scaleGridBottom="24.25" lastModified="1380065073">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/ButtonBackground Over" itemID="50a572e7-00001637" scaleGridLeft="7.65" scaleGridRight="61.9" scaleGridTop="6.6" scaleGridBottom="24.25" lastModified="1422630906">
   <timeline>
     <DOMTimeline name="ButtonBackground Over">
       <layers>
-        <DOMLayer name="Border" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Border" color="#4FFF4F" autoNamed="false" visible="false" layerType="guide">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -24,20 +24,14 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Fill" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="Fill" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <LinearGradient>
-                        <matrix>
-                          <Matrix a="0" b="-0.018310546875" c="0.0186614990234375" d="0" tx="35" ty="15"/>
-                        </matrix>
-                        <GradientEntry color="#AFAFAF" ratio="0"/>
-                        <GradientEntry color="#F2F2F2" ratio="1"/>
-                      </LinearGradient>
+                      <SolidColor color="#6D6E71"/>
                     </FillStyle>
                   </fills>
                   <edges>

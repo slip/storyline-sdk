@@ -9,8 +9,6 @@
     <gif>0</gif>
     <jpeg>0</jpeg>
     <png>0</png>
-    <svg>0</svg>
-    <rnwk>0</rnwk>
     <swc>0</swc>
     <flashDefaultName>0</flashDefaultName>
     <projectorWinDefaultName>1</projectorWinDefaultName>
@@ -19,8 +17,6 @@
     <gifDefaultName>1</gifDefaultName>
     <jpegDefaultName>1</jpegDefaultName>
     <pngDefaultName>1</pngDefaultName>
-    <svgDefaultName>0</svgDefaultName>
-    <rnwkDefaultName>1</rnwkDefaultName>
     <swcDefaultName>1</swcDefaultName>
     <flashFileName>./CustomFrame/bin-debug/CustomFrame.swf</flashFileName>
     <projectorWinFileName>CustomFrame.exe</projectorWinFileName>
@@ -29,13 +25,12 @@
     <gifFileName>CustomFrame.gif</gifFileName>
     <jpegFileName>CustomFrame.jpg</jpegFileName>
     <pngFileName>CustomFrame.png</pngFileName>
-    <svgFileName>CustomFrame.svg</svgFileName>
-    <rnwkFileName>CustomFrame.smil</rnwkFileName>
     <swcFileName>CustomFrame.swc</swcFileName>
+    <publishFormat id="BBC1F406-65F2-4219-9304-FA48C7549E44">0</publishFormat>
   </PublishFormatProperties>
   <PublishHtmlProperties enabled="true">
     <VersionDetectionIfAvailable>0</VersionDetectionIfAvailable>
-    <VersionInfo>11,8,0,0;11,7,0,0;11,6,0,0;11,5,0,0;11,4,0,0;11,3,0,0;11,2,0,0;11,1,0,0;10,3,0,0;10,2,153,0;10,1,52,0;9,0,124,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;</VersionInfo>
+    <VersionInfo>14,0,0,0;13,0,0,0;12,0,0,0;11,9,0,0;11,8,0,0;11,7,0,0;11,6,0,0;11,5,0,0;11,4,0,0;11,3,0,0;11,2,0,0;11,1,0,0;10,3,0,0;10,2,153,0;10,1,52,0;9,0,124,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;</VersionInfo>
     <UsingDefaultContentFilename>1</UsingDefaultContentFilename>
     <UsingDefaultAlternateFilename>1</UsingDefaultAlternateFilename>
     <ContentFilename>CustomFrame_content.html</ContentFilename>
@@ -123,23 +118,6 @@
     <Quality>80</Quality>
     <MatchMovieDim>1</MatchMovieDim>
   </PublishJpegProperties>
-  <PublishRNWKProperties enabled="true">
-    <exportFlash>1</exportFlash>
-    <flashBitRate>0</flashBitRate>
-    <exportAudio>1</exportAudio>
-    <audioFormat>0</audioFormat>
-    <singleRateAudio>0</singleRateAudio>
-    <realVideoRate>100000</realVideoRate>
-    <speed28K>1</speed28K>
-    <speed56K>1</speed56K>
-    <speedSingleISDN>0</speedSingleISDN>
-    <speedDualISDN>0</speedDualISDN>
-    <speedCorporateLAN>0</speedCorporateLAN>
-    <speed256K>0</speed256K>
-    <speed384K>0</speed384K>
-    <speed512K>0</speed512K>
-    <exportSMIL>1</exportSMIL>
-  </PublishRNWKProperties>
   <PublishGifProperties enabled="true">
     <Width>1000</Width>
     <Height>750</Height>
@@ -156,6 +134,15 @@
     <BitDepth>24-bit with Alpha</BitDepth>
     <MaxColors>255</MaxColors>
   </PublishPNGProperties>
+  <PublishProperties id="BBC1F406-65F2-4219-9304-FA48C7549E44" name="SVG Image" enabled="true">
+    <Property name="copy">true</Property>
+    <Property name="default">true</Property>
+    <Property name="embed">false</Property>
+    <Property name="filename">Untitled-1.svg</Property>
+    <Property name="imagesPath">images</Property>
+    <Property name="includeHiddenLayers">true</Property>
+    <Property name="version">0.1</Property>
+  </PublishProperties>
 </flash_profile>
 <flash_profile version="1.0" name="FlashBuilder-Debug" current="true">
   <PublishFormatProperties enabled="true">
@@ -167,8 +154,6 @@
     <gif>0</gif>
     <jpeg>0</jpeg>
     <png>0</png>
-    <svg>0</svg>
-    <rnwk>0</rnwk>
     <swc>0</swc>
     <flashDefaultName>0</flashDefaultName>
     <projectorWinDefaultName>1</projectorWinDefaultName>
@@ -177,8 +162,6 @@
     <gifDefaultName>1</gifDefaultName>
     <jpegDefaultName>1</jpegDefaultName>
     <pngDefaultName>1</pngDefaultName>
-    <svgDefaultName>0</svgDefaultName>
-    <rnwkDefaultName>1</rnwkDefaultName>
     <swcDefaultName>1</swcDefaultName>
     <flashFileName>./testOutput/story_content/frame.swf</flashFileName>
     <projectorWinFileName>CustomFrame.exe</projectorWinFileName>
@@ -187,13 +170,12 @@
     <gifFileName>CustomFrame.gif</gifFileName>
     <jpegFileName>CustomFrame.jpg</jpegFileName>
     <pngFileName>CustomFrame.png</pngFileName>
-    <svgFileName>CustomFrame.svg</svgFileName>
-    <rnwkFileName>CustomFrame.smil</rnwkFileName>
     <swcFileName>CustomFrame.swc</swcFileName>
+    <publishFormat id="BBC1F406-65F2-4219-9304-FA48C7549E44">0</publishFormat>
   </PublishFormatProperties>
   <PublishHtmlProperties enabled="true">
     <VersionDetectionIfAvailable>0</VersionDetectionIfAvailable>
-    <VersionInfo>11,8,0,0;11,7,0,0;11,6,0,0;11,5,0,0;11,4,0,0;11,3,0,0;11,2,0,0;11,1,0,0;10,3,0,0;10,2,153,0;10,1,52,0;9,0,124,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;</VersionInfo>
+    <VersionInfo>14,0,0,0;13,0,0,0;12,0,0,0;11,9,0,0;11,8,0,0;11,7,0,0;11,6,0,0;11,5,0,0;11,4,0,0;11,3,0,0;11,2,0,0;11,1,0,0;10,3,0,0;10,2,153,0;10,1,52,0;9,0,124,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;</VersionInfo>
     <UsingDefaultContentFilename>1</UsingDefaultContentFilename>
     <UsingDefaultAlternateFilename>1</UsingDefaultAlternateFilename>
     <ContentFilename>CustomFrame_content.html</ContentFilename>
@@ -214,7 +196,7 @@
     <WindowMode>0</WindowMode>
     <DisplayMenu>1</DisplayMenu>
     <DeviceFont>0</DeviceFont>
-    <TemplateFileName>/Users/slip/Library/Application Support/Adobe/Flash CC/en_US/Configuration/HTML/Default.html</TemplateFileName>
+    <TemplateFileName>C:\Users\slip\AppData\Local\Adobe\Flash CC 2014\en_US\Configuration\HTML\Default.html</TemplateFileName>
     <showTagWarnMsg>1</showTagWarnMsg>
   </PublishHtmlProperties>
   <PublishFlashProperties enabled="true">
@@ -235,7 +217,7 @@
     <ActionScriptVersion>3</ActionScriptVersion>
     <PackageExportFrame>1</PackageExportFrame>
     <PackagePaths></PackagePaths>
-    <AS3PackagePaths>/Users/slip/Google Drive/davita/storyline-sdk/src/</AS3PackagePaths>
+    <AS3PackagePaths>/Users/slip/Google Drive/davita/storyline-sdk/src/;C:\Users\slip\Google Drive\davita\storyline-sdk\src\</AS3PackagePaths>
     <AS3ConfigConst>CONFIG::FLASH_AUTHORING=&quot;true&quot;;</AS3ConfigConst>
     <DebuggingPermitted>0</DebuggingPermitted>
     <DebuggingPassword></DebuggingPassword>
@@ -281,23 +263,6 @@
     <Quality>80</Quality>
     <MatchMovieDim>1</MatchMovieDim>
   </PublishJpegProperties>
-  <PublishRNWKProperties enabled="true">
-    <exportFlash>1</exportFlash>
-    <flashBitRate>0</flashBitRate>
-    <exportAudio>1</exportAudio>
-    <audioFormat>0</audioFormat>
-    <singleRateAudio>0</singleRateAudio>
-    <realVideoRate>100000</realVideoRate>
-    <speed28K>1</speed28K>
-    <speed56K>1</speed56K>
-    <speedSingleISDN>0</speedSingleISDN>
-    <speedDualISDN>0</speedDualISDN>
-    <speedCorporateLAN>0</speedCorporateLAN>
-    <speed256K>0</speed256K>
-    <speed384K>0</speed384K>
-    <speed512K>0</speed512K>
-    <exportSMIL>1</exportSMIL>
-  </PublishRNWKProperties>
   <PublishGifProperties enabled="true">
     <Width>1000</Width>
     <Height>750</Height>
@@ -314,5 +279,14 @@
     <BitDepth>24-bit with Alpha</BitDepth>
     <MaxColors>255</MaxColors>
   </PublishPNGProperties>
+  <PublishProperties id="BBC1F406-65F2-4219-9304-FA48C7549E44" name="SVG Image" enabled="true">
+    <Property name="copy">true</Property>
+    <Property name="default">true</Property>
+    <Property name="embed">false</Property>
+    <Property name="filename">CustomFrame.svg</Property>
+    <Property name="imagesPath">images</Property>
+    <Property name="includeHiddenLayers">true</Property>
+    <Property name="version">0.1</Property>
+  </PublishProperties>
 </flash_profile>
 </flash_profiles>

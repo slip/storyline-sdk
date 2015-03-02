@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_pause" itemID="497354bc-00000890" lastModified="1422031888">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_pause" itemID="497354bc-00000890" lastModified="1422634250">
   <timeline>
     <DOMTimeline name="icon_pause">
       <layers>
@@ -9,11 +9,11 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor/>
+                      <SolidColor color="#D1D3D4"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!240 280|160 280!160 280|160 0!160 0|240 0!240 0|240 280!80 280|0 280!0 280|0 0!0 0|80 0!80 0|80 280"/>
+                    <Edge fillStyle1="1" edges="!80 280S2|0 280!0 280|0 0!0 0|80 0!80 0|80 280!240 280|160 280!160 280|160 0!160 0|240 0!240 0|240 280"/>
                   </edges>
                 </DOMShape>
               </elements>

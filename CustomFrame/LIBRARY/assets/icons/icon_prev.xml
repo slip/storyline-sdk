@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_prev" itemID="49735855-00000894" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_prev" sourceLastModified="1256785889" lastModified="1353047367" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_prev" itemID="49735855-00000894" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_prev" sourceLastModified="1256785889" lastModified="1422634029" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="icon_prev">
       <layers>
@@ -9,7 +9,7 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#353535"/>
+                      <SolidColor color="#D1D3D4"/>
                     </FillStyle>
                   </fills>
                   <edges>
